@@ -1,0 +1,16 @@
+{
+  "name": "node-blue-node-ftp",
+  "version": "1.0.1",
+  "description": "This package provides a FTP node for Node-BLUE.",
+  "homepage": "https://github.com/Homegear/node-blue-node-ftp",
+  "node-blue": {
+    "maxThreadCounts": {
+      "ftp-server": 0,
+      "ftp": 0
+    },
+    "nodes": {
+      "ftp-server": "ftp-server.s.php",
+      "ftp": "ftp.php"
+    }
+  }
+}
